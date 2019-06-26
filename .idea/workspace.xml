@@ -41,13 +41,6 @@
       <change afterPath="$PROJECT_DIR$/../../ss14.1/route-demo/resources/views/user.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../ss14.2/timezone/resources/views/index.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../ss14.2/timezone1/resources/views/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/modules/customers/delete.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/modules/customers/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/modules/customers/show1.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/modules/customers/show2.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/modules/customers/show3.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/modules/customers/show4.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/modules/customers/show5.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../ss15/email-validation/resources/views/index.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../ss16/Task-demo/resources/views/create.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../ss16/Task-demo/resources/views/index.blade.php" afterDir="false" />
@@ -175,11 +168,6 @@
       <change beforePath="$PROJECT_DIR$/../../greeting/tests/TestCase.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../greeting/tests/Unit/ExampleTest.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../greeting/webpack.mix.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CustomerController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/modules/customer/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/modules/customers/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -513,12 +501,12 @@
       <workItem from="1561445097395" duration="196000" />
       <workItem from="1561446615307" duration="763000" />
       <workItem from="1561449041452" duration="9012000" />
-      <workItem from="1561504480648" duration="4940000" />
+      <workItem from="1561504480648" duration="5323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20773000" />
+    <option name="totallyTimeSpent" value="21156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1920" height="1052" extended-state="6" />
