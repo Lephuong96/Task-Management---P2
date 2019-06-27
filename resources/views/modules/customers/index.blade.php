@@ -19,51 +19,17 @@
         <th>Thao tác</th>
     </tr>
     </thead>
+    @for($id = 1; $id <5; $id++)
     <thead>
     <tr>
-        <th>1</th>
-        <th>Triệu Văn Trác</th>
-        <th>0987731735</th>
-        <th>abcg@gmail.com</th>
-        <th><a href="{{route('show1')}}">Xem</a> | <a href="{{route('customers.edit')}}">Sửa</a> | <a href="{{route('customers.delete')}}">Xóa</a></th>
+        <th>{{$id}}</th>
+        <th>Nguyễn văn A {{$id}}</th>
+        <th>098773173{{$id}}</th>
+        <th>abcg{{$id}}@gmail.com</th>
+        <th><a href="{{route('customers.show', $id)}}">Xem</a> | <a href="{{route('customers.edit', $id)}}">Sửa</a> | <a href="{{route('customers.delete', $id)}}">Xóa</a></th>
     </tr>
     </thead>
-    <thead>
-    <tr>
-        <th>2</th>
-        <th>Lý Á Bằng</th>
-        <th>0827232233</th>
-        <th>hdye@hajud.com</th>
-        <th><a href="{{route('show2')}}">Xem</a> | <a href="{{route('customers.edit')}}">Sửa</a> | <a href="{{route('customers.delete')}}">Xóa</a></th>
-    </tr>
-    </thead>
-    <thead>
-    <tr>
-        <th>3</th>
-        <th>Lý Văn Cơ</th>
-        <th>0837648395</th>
-        <th>chsyen@hdsyd.com</th>
-        <th><a href="{{route('show3')}}">Xem</a> | <a href="{{route('customers.edit')}}">Sửa</a> | <a href="{{route('customers.delete')}}">Xóa</a></th>
-    </tr>
-    </thead>
-    <thead>
-    <tr>
-        <th>4</th>
-        <th>Hoàng Kim Bảng</th>
-        <th>0938742744</th>
-        <th>atssj@gmail.com</th>
-        <th><a href="{{route('show4')}}">Xem</a> | <a href="{{route('customers.edit')}}">Sửa</a> | <a href="{{route('customers.delete')}}">Xóa</a></th>
-    </tr>
-    </thead>
-    <thead>
-    <tr>
-        <th>5</th>
-        <th>Hoàng Mộng Giao</th>
-        <th>087467381</th>
-        <th>lsidjsdy@gmail.com</th>
-        <th><a href="{{route('show5')}}">Xem</a> | <a href="{{route('customers.edit')}}">Sửa</a> | <a href="{{route('customers.delete')}}">Xóa</a></th>
-    </tr>
-    </thead>
+    @endfor
 
 </table>
 </body>

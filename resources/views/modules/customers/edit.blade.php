@@ -12,6 +12,7 @@
 <form>
     <div class="col-md-3 col-md-offset-3">
         <h1>Cập nhật khách hàng</h1>
+        Bạn đang sửa form khách hàng {{$id}}
     <div class="form-group" >
         <label for="">Họ tên</label>
         <input type="text" class="form-control" id="name" placeholder="Enter name">

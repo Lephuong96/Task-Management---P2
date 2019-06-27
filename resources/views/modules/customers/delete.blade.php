@@ -11,7 +11,7 @@
 <body>
 <form>
     <div class="col-md-3 col-md-offset-3">
-        <h2>Bạn có chắc chắn muốn xóa?</h2>
+        <h2>Bạn có chắc chắn muốn xóa khách hàng {{$id}}?</h2>
 
 
         <a href="{{route('customers.index')}}" >
